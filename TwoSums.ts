@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/two-sum/solution/
+// https://leetcode.com/problems/two-sum
 function twoSum(nums: number[], target: number): number[] {
     var hash = new Map();
     
