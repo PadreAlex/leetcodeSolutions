@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/maximum-subarray/
+//Kadane's algorithm solution
 function maxSubArray(nums: number[]): number {
     let res: number = nums[0];
     let max: number = nums[0];
