@@ -1,0 +1,10 @@
+https://leetcode.com/problems/regular-expression-matching/description/
+
+// this solution is uglu but simple
+// and not the fastest one
+function isMatch(s: string, p: string): boolean {
+    while (p.includes("**")) {
+        p = p.replace("**", "*");
+    }
+    return new RegExp(`^${p}\$`).test(s)
+};
